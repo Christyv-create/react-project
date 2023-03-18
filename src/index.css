@@ -5,6 +5,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  text-shadow: .5px .5px .5px;
+  background-image: url(./image/dog_background2.jpg);
+  background-repeat: no-repeat ;
+  background-size: cover;
+  
+
 }
 
 code {
