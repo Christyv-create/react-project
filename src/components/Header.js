@@ -1,14 +1,21 @@
 
 import React from 'react'
 
-const header = () => {
+import Button from './Button'
+
+const header = ({title}) => {
   return (
-    <header><h1>Budy's Dog Walking Service</h1>
+    <header className='header'>
+           <h2> Join our community! </h2>
+   
+      <Button color='red' text='Log In'/>
+            <Button color='red' text='Book a Walk'/>
+            <Button color='red' text='Become a Walker'/>
+            
         </header>
 
           
   )
 }
-
 export default header
 
