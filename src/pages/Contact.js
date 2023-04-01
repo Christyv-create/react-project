@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Navigate } from 'react-router-dom';
 
 
+
 function Contact() {
   const [showForm, setShowForm] = useState(false);
   const [name, setName] = useState('');
@@ -16,6 +17,7 @@ function Contact() {
 
   return (
     <div>
+     
       <button onClick={() => setShowForm(true)}>Contact Us</button>
       {showForm && (
         <form onSubmit={handleSubmit}>
