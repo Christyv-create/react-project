@@ -1,17 +1,27 @@
-import React from 'react'
-import Button from './Button'
+import React, { useState } from 'react';
+import Login from './Login';
+import './Header.css';
 
-const Header = ({title, subtitle}) => {
+const Header = ({ title, subtitle }) => {
+  const [showLogin, setShowLogin] = useState(false);
+
+  const handleLoginClick = () => {
+    setShowLogin(true);
+  };
+
+  const handleCloseClick = () => {
+    setShowLogin(false);
+  };
+
   return (
     <header className='header'>
       {subtitle && <p>{subtitle}</p>}
       <h2>{title}</h2>
-      <Button color='red' text='Log In'/>
-      <Button color='red' text='Book a Walk'/>
-      <Button color='red' text='Become a Walker'/>
+      <button onClick={handleLoginClick}>Log In</button>
+      {showLogin && <Login onCloseClick={handleCloseClick} />}
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
 

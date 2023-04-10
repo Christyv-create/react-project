@@ -13,9 +13,8 @@ function Home() {
 <div className="homeText">
 
 
-        <p>
-
-          Buddy's Dog Walking Service is more than just a Dog Walking service.
+        <p><span class="first-word">
+          Buddy's Dog Walking Service </span>is more than just a dog walking service.
           Our goal is to become a member of your extended family and get your dog tired!
           Through our daily high energy walking services, your dog is mentally and physically stimulated. 
           From the moment you contact us, we find out all there is to know about the routine
