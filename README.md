@@ -1,4 +1,4 @@
-
+This React project is my dog walking website I created for FS1000. I have a contact me page in the website and a login button visible in all pages of the website. Once logged in a user has access to their profile - either the dog owner looking to book a dog walk or the dog walker profile.
 
 
 
